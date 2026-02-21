@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>OpenPave Skill Marketplace</title>
+  <script src="https://cdn.jsdelivr.net/npm/js-yaml@4.1.0/dist/js-yaml.min.js"></script>
   <style>
     :root {
       --bg: #0d1117;
@@ -205,6 +206,28 @@
       color: var(--link);
       text-decoration: none;
     }
+    
+    .loading {
+      text-align: center;
+      padding: 3rem;
+      color: var(--text-muted);
+    }
+    
+    .error {
+      text-align: center;
+      padding: 2rem;
+      color: #f85149;
+      background: var(--card-bg);
+      border: 1px solid #f85149;
+      border-radius: 8px;
+    }
+    
+    .skill-count {
+      text-align: center;
+      color: var(--text-muted);
+      margin-bottom: 1rem;
+      font-size: 0.9rem;
+    }
   </style>
 </head>
 <body>
@@ -230,60 +253,15 @@ pave run gmail list --max 5</code></pre>
       <input type="text" placeholder="Search skills..." id="search" onkeyup="filterSkills()">
     </div>
     
-    <div class="categories">
+    <div class="categories" id="categories">
       <span class="category-tag active" onclick="filterByCategory('all')">All</span>
-      <span class="category-tag" onclick="filterByCategory('communication')">📧 Communication</span>
-      <span class="category-tag" onclick="filterByCategory('storage')">📦 Storage</span>
-      <span class="category-tag" onclick="filterByCategory('search')">🔍 Search</span>
-      <span class="category-tag" onclick="filterByCategory('productivity')">📋 Productivity</span>
-      <span class="category-tag" onclick="filterByCategory('development')">💻 Development</span>
+      <!-- Categories will be dynamically populated -->
     </div>
     
+    <div class="skill-count" id="skill-count"></div>
+    
     <div class="skills-grid" id="skills">
-      <!-- Gmail -->
-      <div class="skill-card" data-category="communication" data-name="gmail">
-        <div class="skill-header">
-          <span class="skill-icon">📧</span>
-          <span class="skill-name">gmail</span>
-          <span class="skill-version">v1.0.0</span>
-        </div>
-        <p class="skill-description">Read and manage Gmail messages securely using OAuth</p>
-        <div class="skill-meta">
-          <span class="skill-category">communication</span>
-          <span class="skill-author">by <a href="https://github.com/cnrai">cnrai</a></span>
-        </div>
-        <div class="install-cmd">pave install gmail</div>
-      </div>
-      
-      <!-- Dropbox -->
-      <div class="skill-card" data-category="storage" data-name="dropbox">
-        <div class="skill-header">
-          <span class="skill-icon">📦</span>
-          <span class="skill-name">dropbox</span>
-          <span class="skill-version">v1.0.0</span>
-        </div>
-        <p class="skill-description">Access Dropbox files and Paper documents</p>
-        <div class="skill-meta">
-          <span class="skill-category">storage</span>
-          <span class="skill-author">by <a href="https://github.com/cnrai">cnrai</a></span>
-        </div>
-        <div class="install-cmd">pave install dropbox</div>
-      </div>
-      
-      <!-- Exa -->
-      <div class="skill-card" data-category="search" data-name="exa">
-        <div class="skill-header">
-          <span class="skill-icon">🔍</span>
-          <span class="skill-name">exa</span>
-          <span class="skill-version">v1.0.0</span>
-        </div>
-        <p class="skill-description">AI-powered web search using Exa.ai neural search</p>
-        <div class="skill-meta">
-          <span class="skill-category">search</span>
-          <span class="skill-author">by <a href="https://github.com/cnrai">cnrai</a></span>
-        </div>
-        <div class="install-cmd">pave install exa</div>
-      </div>
+      <div class="loading">Loading skills from registry...</div>
     </div>
     
     <footer>
@@ -297,7 +275,109 @@ pave run gmail list --max 5</code></pre>
   </div>
   
   <script>
+    // Registry URL - fetch from same repo
+    const REGISTRY_URL = 'https://raw.githubusercontent.com/cnrai/openpave-marketplace/main/registry.yaml';
+    
+    // Category icons
+    const CATEGORY_ICONS = {
+      communication: '📧',
+      storage: '📦',
+      search: '🔍',
+      productivity: '📋',
+      development: '💻',
+      other: '🔧'
+    };
+    
     let currentCategory = 'all';
+    let allSkills = [];
+    
+    // Fetch and render skills on page load
+    async function loadSkills() {
+      const skillsGrid = document.getElementById('skills');
+      const categoriesDiv = document.getElementById('categories');
+      
+      try {
+        // Fetch registry.yaml
+        const response = await fetch(REGISTRY_URL);
+        if (!response.ok) {
+          throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+        }
+        
+        const yamlText = await response.text();
+        const registry = jsyaml.load(yamlText);
+        
+        if (!registry || !registry.skills) {
+          throw new Error('Invalid registry format');
+        }
+        
+        // Convert to array and sort alphabetically
+        allSkills = Object.values(registry.skills).sort((a, b) => 
+          a.name.localeCompare(b.name)
+        );
+        
+        // Get unique categories
+        const categories = [...new Set(allSkills.map(s => s.category || 'other'))].sort();
+        
+        // Render category tags
+        let categoryHTML = '<span class="category-tag active" onclick="filterByCategory(\'all\')">All</span>';
+        for (const cat of categories) {
+          const icon = CATEGORY_ICONS[cat] || '🔧';
+          categoryHTML += `<span class="category-tag" onclick="filterByCategory('${cat}')">${icon} ${capitalize(cat)}</span>`;
+        }
+        categoriesDiv.innerHTML = categoryHTML;
+        
+        // Render skills
+        renderSkills(allSkills);
+        
+      } catch (error) {
+        console.error('Failed to load skills:', error);
+        skillsGrid.innerHTML = `
+          <div class="error">
+            <p>Failed to load skills registry.</p>
+            <p style="margin-top: 0.5rem; font-size: 0.9rem;">${error.message}</p>
+          </div>
+        `;
+      }
+    }
+    
+    function renderSkills(skills) {
+      const skillsGrid = document.getElementById('skills');
+      const skillCount = document.getElementById('skill-count');
+      
+      if (skills.length === 0) {
+        skillsGrid.innerHTML = '<div class="loading">No skills found.</div>';
+        skillCount.textContent = '';
+        return;
+      }
+      
+      skillCount.textContent = `${skills.length} skill${skills.length !== 1 ? 's' : ''} available`;
+      
+      let html = '';
+      for (const skill of skills) {
+        const icon = skill.icon || CATEGORY_ICONS[skill.category] || '🔧';
+        const author = skill.author || 'unknown';
+        const authorUrl = skill.repository ? `https://github.com/${skill.repository.split('/')[0]}` : '#';
+        const repoUrl = skill.repository ? `https://github.com/${skill.repository}` : '#';
+        
+        html += `
+          <div class="skill-card" data-category="${skill.category || 'other'}" data-name="${skill.name}">
+            <div class="skill-header">
+              <span class="skill-icon">${icon}</span>
+              <a href="${repoUrl}" class="skill-name" style="color: var(--text); text-decoration: none;">${skill.name}</a>
+              <span class="skill-version">v${skill.version}</span>
+            </div>
+            <p class="skill-description">${escapeHtml(skill.description || '')}</p>
+            <div class="skill-meta">
+              <span class="skill-category">${skill.category || 'other'}</span>
+              <span class="skill-author">by <a href="${authorUrl}">${escapeHtml(author)}</a></span>
+            </div>
+            <div class="install-cmd">pave install ${skill.name}</div>
+          </div>
+        `;
+      }
+      
+      skillsGrid.innerHTML = html;
+    }
     
     function filterByCategory(category) {
       currentCategory = category;
@@ -316,19 +396,40 @@ pave run gmail list --max 5</code></pre>
     
     function filterSkills() {
       const search = document.getElementById('search').value.toLowerCase();
-      const cards = document.querySelectorAll('.skill-card');
       
-      cards.forEach(card => {
-        const name = card.dataset.name.toLowerCase();
-        const category = card.dataset.category;
-        const text = card.textContent.toLowerCase();
+      const filtered = allSkills.filter(skill => {
+        const matchesCategory = currentCategory === 'all' || skill.category === currentCategory;
         
-        const matchesSearch = !search || text.includes(search);
-        const matchesCategory = currentCategory === 'all' || category === currentCategory;
+        if (!matchesCategory) return false;
+        if (!search) return true;
         
-        card.style.display = matchesSearch && matchesCategory ? 'block' : 'none';
+        // Search in name, description, keywords, author
+        const searchableText = [
+          skill.name,
+          skill.description || '',
+          skill.author || '',
+          skill.category || '',
+          ...(skill.keywords || [])
+        ].join(' ').toLowerCase();
+        
+        return searchableText.includes(search);
       });
+      
+      renderSkills(filtered);
     }
+    
+    function capitalize(str) {
+      return str.charAt(0).toUpperCase() + str.slice(1);
+    }
+    
+    function escapeHtml(text) {
+      const div = document.createElement('div');
+      div.textContent = text;
+      return div.innerHTML;
+    }
+    
+    // Load on page ready
+    document.addEventListener('DOMContentLoaded', loadSkills);
   </script>
 </body>
 </html>
