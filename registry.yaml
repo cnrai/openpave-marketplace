@@ -1,5 +1,5 @@
 version: 1
-updated: 2026-02-21T19:19:53.245Z
+updated: 2026-02-21T19:58:03.510Z
 skills:
   gmail:
     name: gmail
@@ -127,3 +127,19 @@ skills:
       - work-management
       - collaboration
     published: 2026-02-21T19:19:50.193Z
+  mailchimp:
+    name: mailchimp
+    version: 1.0.0
+    description: Access Mailchimp Marketing API for email campaigns, lists, and subscribers
+    author: cnrai
+    repository: cnrai/openpave-mailchimp
+    category: productivity
+    icon: 📧
+    keywords:
+      - mailchimp
+      - email
+      - marketing
+      - campaigns
+      - newsletters
+      - subscribers
+    published: 2026-02-21T19:57:59.950Z
