@@ -1,5 +1,5 @@
 version: 1
-updated: 2026-02-21T18:09:32.252Z
+updated: 2026-02-21T18:56:08.563Z
 skills:
   gmail:
     name: gmail
@@ -97,3 +97,18 @@ skills:
       - productivity
       - gtd
     published: 2026-02-21T18:09:28.578Z
+  whatsapp:
+    name: whatsapp
+    version: 1.0.0
+    description: Send and receive WhatsApp messages via wwebjs-api server
+    author: cnrai
+    repository: cnrai/openpave-whatsapp
+    category: communication
+    icon: 📱
+    keywords:
+      - whatsapp
+      - messaging
+      - chat
+      - communication
+      - wwebjs
+    published: 2026-02-21T18:56:05.218Z
