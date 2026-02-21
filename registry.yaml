@@ -1,5 +1,5 @@
 version: 1
-updated: 2026-02-21T16:44:15.038Z
+updated: 2026-02-21T17:57:53.723Z
 skills:
   gmail:
     name: gmail
@@ -64,3 +64,20 @@ skills:
       - scheduling
       - appointments
     published: 2026-02-21T16:44:11.666Z
+  gdrive:
+    name: gdrive
+    version: 1.0.0
+    description: Access and manage Google Drive files securely using OAuth
+    author: cnrai
+    repository: cnrai/openpave-gdrive
+    category: storage
+    icon: 💾
+    keywords:
+      - drive
+      - google
+      - cloud
+      - storage
+      - files
+      - oauth
+      - documents
+    published: 2026-02-21T17:57:49.972Z
