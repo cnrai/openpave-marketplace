@@ -70,7 +70,7 @@ skills:
     description: Access and manage Google Drive files securely using OAuth
     author: cnrai
     repository: cnrai/openpave-gdrive
-    category: productivity
+    category: storage
     icon: 💾
     keywords:
       - drive
