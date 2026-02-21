@@ -1,5 +1,5 @@
 version: 1
-updated: 2026-02-21T18:56:08.563Z
+updated: 2026-02-21T19:19:53.245Z
 skills:
   gmail:
     name: gmail
@@ -112,3 +112,18 @@ skills:
       - communication
       - wwebjs
     published: 2026-02-21T18:56:05.218Z
+  wrike:
+    name: wrike
+    version: 1.0.0
+    description: Query and manage Wrike tasks, folders, and attachments using secure token system
+    author: cnrai
+    repository: cnrai/openpave-wrike
+    category: productivity
+    icon: 📋
+    keywords:
+      - wrike
+      - tasks
+      - project-management
+      - work-management
+      - collaboration
+    published: 2026-02-21T19:19:50.193Z
