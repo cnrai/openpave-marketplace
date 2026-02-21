@@ -1,0 +1,71 @@
+# OpenPave Skill Marketplace Registry
+# https://github.com/cnrai/openpave-marketplace
+#
+# This file contains metadata for all published skills.
+# To add a skill, submit a PR with your skill entry.
+#
+# Format:
+#   skill-name:
+#     name: skill-name
+#     version: 1.0.0
+#     description: Short description (max 100 chars)
+#     author: github-username
+#     repository: owner/repo
+#     category: communication|storage|search|productivity|development|other
+#     icon: "emoji" (optional)
+#     keywords: [array, of, keywords]
+#     published: ISO 8601 timestamp
+
+version: 1
+updated: 2026-02-22T12:00:00Z
+
+skills:
+  gmail:
+    name: gmail
+    version: 1.0.0
+    description: Read and manage Gmail messages securely using OAuth
+    author: cnrai
+    repository: cnrai/openpave-gmail
+    category: communication
+    icon: "\U0001F4E7"
+    keywords:
+      - email
+      - gmail
+      - google
+      - inbox
+      - messages
+      - oauth
+    published: 2026-02-21T00:00:00Z
+
+  dropbox:
+    name: dropbox
+    version: 1.0.0
+    description: Access Dropbox files and Paper documents
+    author: cnrai
+    repository: cnrai/openpave-dropbox
+    category: storage
+    icon: "\U0001F4E6"
+    keywords:
+      - files
+      - cloud
+      - storage
+      - dropbox
+      - paper
+    published: 2026-02-21T00:00:00Z
+
+  exa:
+    name: exa
+    version: 1.0.0
+    description: AI-powered web search using Exa.ai neural search
+    author: cnrai
+    repository: cnrai/openpave-exa
+    category: search
+    icon: "\U0001F50D"
+    keywords:
+      - search
+      - web
+      - ai
+      - neural
+      - research
+      - news
+    published: 2026-02-21T00:00:00Z
