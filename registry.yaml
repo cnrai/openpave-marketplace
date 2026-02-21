@@ -1,5 +1,5 @@
 version: 1
-updated: 2026-02-21T17:57:53.723Z
+updated: 2026-02-21T18:09:32.252Z
 skills:
   gmail:
     name: gmail
@@ -81,3 +81,19 @@ skills:
       - oauth
       - documents
     published: 2026-02-21T17:57:49.972Z
+  gtasks:
+    name: gtasks
+    version: 1.0.0
+    description: Manage Google Tasks securely using OAuth
+    author: cnrai
+    repository: cnrai/openpave-gtasks
+    category: productivity
+    icon: 📋
+    keywords:
+      - tasks
+      - google
+      - oauth
+      - todo
+      - productivity
+      - gtd
+    published: 2026-02-21T18:09:28.578Z
