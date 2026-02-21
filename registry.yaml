@@ -1,24 +1,5 @@
-# OpenPave Skill Marketplace Registry
-# https://github.com/cnrai/openpave-marketplace
-#
-# This file contains metadata for all published skills.
-# To add a skill, submit a PR with your skill entry.
-#
-# Format:
-#   skill-name:
-#     name: skill-name
-#     version: 1.0.0
-#     description: Short description (max 100 chars)
-#     author: github-username
-#     repository: owner/repo
-#     category: communication|storage|search|productivity|development|other
-#     icon: "emoji" (optional)
-#     keywords: [array, of, keywords]
-#     published: ISO 8601 timestamp
-
 version: 1
-updated: 2026-02-22T12:00:00Z
-
+updated: 2026-02-21T16:44:15.038Z
 skills:
   gmail:
     name: gmail
@@ -27,7 +8,7 @@ skills:
     author: cnrai
     repository: cnrai/openpave-gmail
     category: communication
-    icon: "\U0001F4E7"
+    icon: 📧
     keywords:
       - email
       - gmail
@@ -35,8 +16,7 @@ skills:
       - inbox
       - messages
       - oauth
-    published: 2026-02-21T00:00:00Z
-
+    published: 2026-02-21T00:00:00.000Z
   dropbox:
     name: dropbox
     version: 1.0.0
@@ -44,15 +24,14 @@ skills:
     author: cnrai
     repository: cnrai/openpave-dropbox
     category: storage
-    icon: "\U0001F4E6"
+    icon: 📦
     keywords:
       - files
       - cloud
       - storage
       - dropbox
       - paper
-    published: 2026-02-21T00:00:00Z
-
+    published: 2026-02-21T00:00:00.000Z
   exa:
     name: exa
     version: 1.0.0
@@ -60,7 +39,7 @@ skills:
     author: cnrai
     repository: cnrai/openpave-exa
     category: search
-    icon: "\U0001F50D"
+    icon: 🔍
     keywords:
       - search
       - web
@@ -68,4 +47,20 @@ skills:
       - neural
       - research
       - news
-    published: 2026-02-21T00:00:00Z
+    published: 2026-02-21T00:00:00.000Z
+  gcal:
+    name: gcal
+    version: 1.0.0
+    description: Read and manage Google Calendar events securely using OAuth
+    author: cnrai
+    repository: cnrai/openpave-gcal
+    category: productivity
+    icon: 📅
+    keywords:
+      - calendar
+      - google
+      - oauth
+      - events
+      - scheduling
+      - appointments
+    published: 2026-02-21T16:44:11.666Z
