@@ -1,5 +1,5 @@
 version: 1
-updated: 2026-02-22T14:40:11.178Z
+updated: 2026-02-22T15:32:28.911Z
 skills:
   gmail:
     name: gmail
@@ -217,3 +217,19 @@ skills:
       - projects
       - billing
     published: 2026-02-22T14:40:07.616Z
+  discord:
+    name: discord
+    version: 1.0.0
+    description: Send messages and interact with Discord channels securely
+    author: cnrai
+    repository: cnrai/openpave-discord
+    category: communication
+    icon: 💬
+    keywords:
+      - discord
+      - chat
+      - messaging
+      - bot
+      - notifications
+      - communication
+    published: 2026-02-22T15:32:25.545Z
