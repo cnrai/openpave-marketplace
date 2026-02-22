@@ -1,5 +1,5 @@
 version: 1
-updated: 2026-02-22T14:21:17.403Z
+updated: 2026-02-22T14:40:11.178Z
 skills:
   gmail:
     name: gmail
@@ -198,3 +198,22 @@ skills:
       - word
       - pandoc
     published: 2026-02-22T14:21:12.833Z
+  freshbooks:
+    name: freshbooks
+    version: 1.0.0
+    description: Manage FreshBooks invoices, clients, expenses, payments, projects, and time tracking
+    author: cnrai
+    repository: cnrai/openpave-freshbooks
+    category: productivity
+    icon: 💰
+    keywords:
+      - freshbooks
+      - accounting
+      - invoices
+      - expenses
+      - clients
+      - payments
+      - time-tracking
+      - projects
+      - billing
+    published: 2026-02-22T14:40:07.616Z
