@@ -1,5 +1,5 @@
 version: 1
-updated: 2026-02-22T04:25:58.887Z
+updated: 2026-02-22T14:21:17.403Z
 skills:
   gmail:
     name: gmail
@@ -181,3 +181,20 @@ skills:
       - templates
       - pdf
     published: 2026-02-22T04:25:55.530Z
+  docx2md:
+    name: docx2md
+    version: 1.0.0
+    description: Convert DOCX and DOC files to Markdown format
+    author: cnrai
+    repository: cnrai/openpave-docx2md
+    category: productivity
+    icon: 📝
+    keywords:
+      - docx
+      - doc
+      - markdown
+      - converter
+      - document
+      - word
+      - pandoc
+    published: 2026-02-22T14:21:12.833Z
