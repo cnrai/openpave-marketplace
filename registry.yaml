@@ -50,7 +50,7 @@ skills:
     published: 2026-02-21T00:00:00.000Z
   gcal:
     name: gcal
-    version: 1.0.0
+    version: 1.1.0
     description: Read and manage Google Calendar events securely using OAuth
     author: cnrai
     repository: cnrai/openpave-gcal
@@ -63,7 +63,9 @@ skills:
       - events
       - scheduling
       - appointments
-    published: 2026-02-21T16:44:11.666Z
+      - event-creation
+      - event-management
+    published: 2026-02-22T14:17:37.988Z
   gdrive:
     name: gdrive
     version: 1.0.0
