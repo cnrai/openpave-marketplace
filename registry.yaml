@@ -1,5 +1,5 @@
 version: 1
-updated: 2026-02-22T04:11:47.413Z
+updated: 2026-02-22T04:25:58.887Z
 skills:
   gmail:
     name: gmail
@@ -161,3 +161,21 @@ skills:
       - pave
       - openpave
     published: 2026-02-22T04:11:44.244Z
+  pandadoc:
+    name: pandadoc
+    version: 1.0.0
+    description: Query and manage PandaDoc documents, templates, and e-signatures
+    author: cnrai
+    repository: cnrai/openpave-pandadoc
+    category: productivity
+    icon: 📝
+    keywords:
+      - pandadoc
+      - documents
+      - esign
+      - e-signature
+      - contracts
+      - proposals
+      - templates
+      - pdf
+    published: 2026-02-22T04:25:55.530Z
