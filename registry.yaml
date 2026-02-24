@@ -1,5 +1,5 @@
 version: 1
-updated: 2026-02-24T12:23:08.380Z
+updated: 2026-02-24T13:55:01.243Z
 skills:
   gmail:
     name: gmail
@@ -147,7 +147,7 @@ skills:
     published: 2026-02-21T19:57:59.950Z
   bamboohr:
     name: bamboohr
-    version: 1.0.1
+    version: 1.0.3
     description: Query BambooHR for time off, employees, and applicant tracking
     author: cnrai
     repository: cnrai/openpave-bamboohr
@@ -162,7 +162,7 @@ skills:
       - ats
       - pave
       - openpave
-    published: 2026-02-24T12:23:04.774Z
+    published: 2026-02-24T13:54:57.725Z
   pandadoc:
     name: pandadoc
     version: 1.0.0
