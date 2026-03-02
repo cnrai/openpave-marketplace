@@ -1,9 +1,9 @@
 version: 1
-updated: 2026-03-02T17:31:33.654Z
+updated: 2026-03-02T17:34:57.164Z
 skills:
   gmail:
     name: gmail
-    version: 2.0.0
+    version: 2.0.1
     description: Read, send, and manage Gmail messages securely using OAuth
     author: cnrai
     repository: cnrai/openpave-gmail
@@ -16,7 +16,7 @@ skills:
       - oauth
       - inbox
       - messages
-    published: 2026-03-02T17:31:30.400Z
+    published: 2026-03-02T17:34:53.661Z
   dropbox:
     name: dropbox
     version: 1.0.0
