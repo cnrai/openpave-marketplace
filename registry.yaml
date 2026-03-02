@@ -5,7 +5,7 @@ skills:
     name: gmail
     version: 1.1.0
     description: Read and manage Gmail messages securely using OAuth
-    author: OpenPave
+    author: cnrai
     repository: cnrai/openpave-gmail
     category: communication
     icon: 📧
