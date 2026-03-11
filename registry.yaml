@@ -19,19 +19,21 @@ skills:
     published: 2026-03-07T08:56:15.893Z
   dropbox:
     name: dropbox
-    version: 1.0.0
-    description: Access Dropbox files and Paper documents
+    version: 1.2.0
+    description: Access Dropbox files, folders, and Paper documents. Use --input for multi-line content in Paper docs.
     author: cnrai
     repository: cnrai/openpave-dropbox
-    category: storage
-    icon: 📦
+    category: productivity
+    icon: 📁
     keywords:
+      - dropbox
       - files
+      - folders
       - cloud
       - storage
-      - dropbox
       - paper
-    published: 2026-02-21T00:00:00.000Z
+      - documents
+    published: 2026-03-07T10:38:06.306Z
   exa:
     name: exa
     version: 1.0.0
