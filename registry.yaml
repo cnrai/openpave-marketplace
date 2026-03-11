@@ -24,8 +24,15 @@ skills:
     author: cnrai
     repository: cnrai/openpave-dropbox
     category: productivity
-    icon: null
-    keywords: []
+    icon: 📁
+    keywords:
+      - dropbox
+      - files
+      - folders
+      - cloud
+      - storage
+      - paper
+      - documents
     published: 2026-03-07T10:38:06.306Z
   exa:
     name: exa
