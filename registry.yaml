@@ -1,5 +1,5 @@
 version: 1
-updated: 2026-03-07T10:38:09.606Z
+updated: 2026-03-11T14:29:04.612Z
 skills:
   gmail:
     name: gmail
@@ -235,3 +235,25 @@ skills:
       - notifications
       - communication
     published: 2026-02-22T15:32:25.545Z
+  playwright:
+    name: playwright
+    version: 1.1.0
+    description: Browser automation with Playwright - screenshots, PDFs, code generation, session management, and testing
+    author: cnrai
+    repository: cnrai/openpave-playwright
+    category: development
+    icon: 🎭
+    keywords:
+      - playwright
+      - browser
+      - automation
+      - screenshot
+      - pdf
+      - testing
+      - codegen
+      - e2e
+      - web
+      - login
+      - session
+      - auth
+    published: 2026-03-11T14:29:01.223Z
