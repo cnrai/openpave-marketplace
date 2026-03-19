@@ -276,3 +276,22 @@ skills:
       - cobalt
       - pave
     published: 2026-03-19T16:30:00.000Z
+  skills:
+    name: skills
+    version: 1.0.0
+    description: Import and manage SKILL.md-based agent skills from GitHub repositories. Bridge between the npx-skills ecosystem and PAVE.
+    author: cnrai
+    repository: cnrai/openpave-skills
+    category: developer-tools
+    icon: "\U0001F9E9"
+    keywords:
+      - skills
+      - agent-skills
+      - skill-md
+      - bridge
+      - context
+      - instructions
+      - impeccable
+      - cursor
+      - claude-code
+    published: 2026-03-19T17:42:00.000Z
