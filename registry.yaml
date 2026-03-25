@@ -1,5 +1,5 @@
 version: 1
-updated: 2026-03-19T16:30:00.000Z
+updated: 2026-03-25T08:09:15.029Z
 skills:
   gmail:
     name: gmail
@@ -259,31 +259,35 @@ skills:
     published: 2026-03-11T14:29:01.223Z
   pdf:
     name: pdf
-    version: 1.0.0
-    description: Generate branded PDF documents with Dark (PAVE Cobalt) and Light (C&R Professional) themes from structured JSON content
+    version: 1.1.0
+    description: >-
+      Generate branded PDF documents with Dark (PAVE Cobalt) and Light (C&R Professional) themes from structured JSON
+      content
     author: cnrai
     repository: cnrai/openpave-pdf
     category: productivity
     icon: 📄
     keywords:
       - pdf
-      - document
       - proposal
+      - document
       - branded
       - puppeteer
       - dark-theme
       - light-theme
       - cobalt
       - pave
-    published: 2026-03-19T16:30:00.000Z
+    published: 2026-03-25T08:09:11.887Z
   skills:
     name: skills
     version: 1.0.0
-    description: Import and manage SKILL.md-based agent skills from GitHub repositories. Bridge between the npx-skills ecosystem and PAVE.
+    description: >-
+      Import and manage SKILL.md-based agent skills from GitHub repositories. Bridge between the npx-skills ecosystem
+      and PAVE.
     author: cnrai
     repository: cnrai/openpave-skills
     category: developer-tools
-    icon: "\U0001F9E9"
+    icon: 🧩
     keywords:
       - skills
       - agent-skills
