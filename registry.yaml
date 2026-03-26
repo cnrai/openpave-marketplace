@@ -1,5 +1,5 @@
 version: 1
-updated: 2026-03-25T08:09:15.029Z
+updated: 2026-03-26T10:00:00.000Z
 skills:
   gmail:
     name: gmail
@@ -278,6 +278,29 @@ skills:
       - cobalt
       - pave
     published: 2026-03-25T08:09:11.887Z
+  pdf-export:
+    name: pdf-export
+    version: 1.0.0
+    description: >-
+      Export HTML slide decks to PDF with retina screenshots, clickable links, and video-to-link swaps via Puppeteer +
+      Chrome
+    author: cnrai
+    repository: cnrai/openpave-pdf-export
+    category: productivity
+    icon: 📊
+    keywords:
+      - pdf
+      - export
+      - slides
+      - deck
+      - presentation
+      - puppeteer
+      - chrome
+      - screenshot
+      - retina
+      - clickable-links
+      - video-swap
+    published: 2026-03-26T10:00:00.000Z
   skills:
     name: skills
     version: 1.0.0
