@@ -1,5 +1,5 @@
 version: 1
-updated: 2026-03-26T10:00:00.000Z
+updated: 2026-03-30T03:41:26.322Z
 skills:
   gmail:
     name: gmail
@@ -322,3 +322,24 @@ skills:
       - cursor
       - claude-code
     published: 2026-03-19T17:42:00.000Z
+  design:
+    name: design
+    version: 1.0.0
+    description: '20 design skills for AI agents: polish, audit, animate, bolder, critique, and more. Based on pbakaus/impeccable.'
+    author: cnrai
+    repository: cnrai/openpave-impeccable
+    category: development
+    icon: 🎨
+    keywords:
+      - design
+      - frontend
+      - polish
+      - audit
+      - accessibility
+      - animation
+      - typography
+      - impeccable
+      - pbakaus
+      - ui
+      - ux
+    published: 2026-03-30T03:41:22.997Z
