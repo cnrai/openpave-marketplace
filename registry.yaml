@@ -322,6 +322,27 @@ skills:
       - cursor
       - claude-code
     published: 2026-03-19T17:42:00.000Z
+  generate-pdf:
+    name: generate-pdf
+    version: 2.3.0
+    description: >-
+      Generate branded PDF documents with Dark (PAVE Cobalt) and Light (C&R Professional) themes. Bundled C&R logos
+      auto-detected. Client logo mandatory. Supports circles, nbsp, markdown bold/italic in content blocks.
+    author: cnrai
+    repository: cnrai/openpave-generate-pdf
+    category: productivity
+    icon: "\U0001F4C4"
+    keywords:
+      - pdf
+      - proposal
+      - document
+      - branded
+      - puppeteer
+      - dark-theme
+      - light-theme
+      - cobalt
+      - pave
+    published: 2026-03-30T15:00:00.000Z
   design:
     name: design
     version: 1.0.0
