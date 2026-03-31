@@ -1,5 +1,5 @@
 version: 1
-updated: 2026-03-30T03:41:26.322Z
+updated: 2026-03-31T04:45:41.123Z
 skills:
   gmail:
     name: gmail
@@ -130,7 +130,7 @@ skills:
       - project-management
       - work-management
       - collaboration
-    published: 2026-02-21T19:19:50.193Z
+    published: 2026-03-31T04:45:38.183Z
   mailchimp:
     name: mailchimp
     version: 1.0.0
@@ -331,7 +331,7 @@ skills:
     author: cnrai
     repository: cnrai/openpave-generate-pdf
     category: productivity
-    icon: "\U0001F4C4"
+    icon: 📄
     keywords:
       - pdf
       - proposal
