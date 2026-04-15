@@ -1,5 +1,5 @@
 version: 1
-updated: 2026-04-15T17:18:02.000Z
+updated: 2026-04-15T17:20:09.000Z
 skills:
   gmail:
     name: gmail
@@ -257,27 +257,6 @@ skills:
       - session
       - auth
     published: 2026-03-11T14:29:01.223Z
-  pdf:
-    name: pdf
-    version: 1.1.0
-    description: >-
-      Generate branded PDF documents with Dark (PAVE Cobalt) and Light (C&R Professional) themes from structured JSON
-      content
-    author: cnrai
-    repository: cnrai/openpave-pdf
-    category: productivity
-    icon: 📄
-    keywords:
-      - pdf
-      - proposal
-      - document
-      - branded
-      - puppeteer
-      - dark-theme
-      - light-theme
-      - cobalt
-      - pave
-    published: 2026-03-25T08:09:11.887Z
   pdf-export:
     name: pdf-export
     version: 1.0.0
