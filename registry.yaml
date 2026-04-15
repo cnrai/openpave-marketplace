@@ -19,7 +19,7 @@ skills:
     published: 2026-04-15T17:14:22.354Z
   dropbox:
     name: dropbox
-    version: 1.3.0
+    version: 1.4.0
     description: Access Dropbox files, folders, and Paper documents. Use --input for multi-line content in Paper docs.
     author: cnrai
     repository: cnrai/openpave-dropbox
