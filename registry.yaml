@@ -1,5 +1,5 @@
 version: 1
-updated: 2026-04-02T10:50:54.970Z
+updated: 2026-04-15T17:10:06.563Z
 skills:
   gmail:
     name: gmail
@@ -218,7 +218,7 @@ skills:
       - time-tracking
       - projects
       - billing
-    published: 2026-02-22T14:40:07.616Z
+    published: 2026-04-15T17:10:03.088Z
   discord:
     name: discord
     version: 1.0.0
