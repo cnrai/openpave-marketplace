@@ -1,5 +1,5 @@
 version: 1
-updated: 2026-04-02T10:50:54.970Z
+updated: 2026-04-15T17:08:57.560Z
 skills:
   gmail:
     name: gmail
@@ -16,7 +16,7 @@ skills:
       - oauth
       - inbox
       - messages
-    published: 2026-04-02T10:50:51.351Z
+    published: 2026-04-15T17:08:53.742Z
   dropbox:
     name: dropbox
     version: 1.3.0
