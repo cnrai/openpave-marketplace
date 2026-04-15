@@ -1,5 +1,5 @@
 version: 1
-updated: 2026-04-02T10:50:54.970Z
+updated: 2026-04-15T17:09:16.373Z
 skills:
   gmail:
     name: gmail
@@ -74,7 +74,7 @@ skills:
     description: Access and manage Google Drive files securely using OAuth
     author: cnrai
     repository: cnrai/openpave-gdrive
-    category: storage
+    category: productivity
     icon: 💾
     keywords:
       - drive
@@ -84,7 +84,7 @@ skills:
       - files
       - oauth
       - documents
-    published: 2026-02-21T17:57:49.972Z
+    published: 2026-04-15T17:09:13.176Z
   gtasks:
     name: gtasks
     version: 1.0.0
