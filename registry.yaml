@@ -1,5 +1,5 @@
 version: 1
-updated: 2026-04-17T15:23:02.456Z
+updated: 2026-04-24T03:24:48.798Z
 skills:
   gmail:
     name: gmail
@@ -118,7 +118,7 @@ skills:
     published: 2026-04-01T04:57:05.957Z
   wrike:
     name: wrike
-    version: 1.0.1
+    version: 1.0.2
     description: Query and manage Wrike tasks, folders, and attachments using secure token system
     author: cnrai
     repository: cnrai/openpave-wrike
@@ -130,7 +130,7 @@ skills:
       - project-management
       - work-management
       - collaboration
-    published: 2026-03-31T04:48:32.464Z
+    published: 2026-04-24T03:24:44.328Z
   mailchimp:
     name: mailchimp
     version: 1.0.0
