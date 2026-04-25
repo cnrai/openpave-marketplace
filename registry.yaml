@@ -1,5 +1,5 @@
 version: 1
-updated: 2026-04-24T08:24:42.181Z
+updated: 2026-04-25T02:43:16.119Z
 skills:
   gmail:
     name: gmail
@@ -365,3 +365,19 @@ skills:
       - branding
       - design
     published: 2026-04-01T12:00:00.000Z
+  wiki:
+    name: wiki
+    version: 0.1.4
+    description: Read PAVE session history and read/write a markdown wiki at ~/.pave/wiki/
+    author: cnrai
+    repository: cnrai/openpave-wiki
+    category: productivity
+    icon: 📚
+    keywords:
+      - wiki
+      - knowledge
+      - memory
+      - notes
+      - sessions
+      - karpathy
+    published: 2026-04-25T02:43:12.162Z
