@@ -1,5 +1,5 @@
 version: 1
-updated: 2026-04-25T02:43:16.119Z
+updated: 2026-04-29T10:00:00.000Z
 skills:
   gmail:
     name: gmail
@@ -381,3 +381,21 @@ skills:
       - sessions
       - karpathy
     published: 2026-04-25T02:43:12.162Z
+  deck:
+    name: deck
+    version: 1.0.0
+    description: Generate beautiful C&R-branded HTML presentation decks from an explicit slide DSL. ~15 slide types across C&R light and PAVE dark themes.
+    author: cnrai
+    repository: cnrai/openpave-deck
+    category: design
+    icon: 🎞️
+    keywords:
+      - presentation
+      - slides
+      - deck
+      - html
+      - cnr
+      - pave
+      - branded
+      - dsl
+    published: 2026-04-29T10:00:00.000Z
