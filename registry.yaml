@@ -383,7 +383,7 @@ skills:
     published: 2026-04-25T02:43:12.162Z
   deck:
     name: deck
-    version: 1.0.0
+    version: 1.0.2
     description: Generate beautiful C&R-branded HTML presentation decks from an explicit slide DSL. ~15 slide types across C&R light and PAVE dark themes.
     author: cnrai
     repository: cnrai/openpave-deck
