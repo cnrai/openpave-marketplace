@@ -345,7 +345,7 @@ skills:
     published: 2026-03-30T03:41:22.997Z
   logo:
     name: logo
-    version: 1.0.0
+    version: 1.0.1
     description: >-
       Retouch logos locally — remove backgrounds, recolor to white/black/any color, resize, pad, and batch-process.
       Smart --preserve-alpha for smooth anti-aliased edges. Powered by sharp, no external APIs.
