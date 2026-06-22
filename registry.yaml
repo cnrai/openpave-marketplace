@@ -1,5 +1,5 @@
 version: 1
-updated: 2026-05-08T08:06:35.431Z
+updated: 2026-06-22T15:59:40.830Z
 skills:
   gmail:
     name: gmail
@@ -178,7 +178,7 @@ skills:
     published: 2026-02-22T04:25:55.530Z
   docx2md:
     name: docx2md
-    version: 1.0.1
+    version: 1.0.3
     description: Convert DOCX and DOC files to Markdown format
     author: cnrai
     repository: cnrai/openpave-docx2md
@@ -192,7 +192,7 @@ skills:
       - document
       - word
       - pandoc
-    published: 2026-02-24T14:20:38.376Z
+    published: 2026-06-22T15:59:36.544Z
   freshbooks:
     name: freshbooks
     version: 1.1.0
