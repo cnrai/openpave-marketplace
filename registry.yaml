@@ -1,5 +1,5 @@
 version: 1
-updated: 2026-05-08T08:06:35.431Z
+updated: 2026-06-22T15:59:16.175Z
 skills:
   gmail:
     name: gmail
@@ -317,7 +317,7 @@ skills:
     published: 2026-03-30T15:00:00.000Z
   design:
     name: design
-    version: 1.0.0
+    version: 1.1.0
     description: '20 design skills for AI agents: polish, audit, animate, bolder, critique, and more. Based on pbakaus/impeccable.'
     author: cnrai
     repository: cnrai/openpave-impeccable
@@ -335,7 +335,7 @@ skills:
       - pbakaus
       - ui
       - ux
-    published: 2026-03-30T03:41:22.997Z
+    published: 2026-06-22T15:59:11.938Z
   logo:
     name: logo
     version: 1.0.1
