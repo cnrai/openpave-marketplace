@@ -1,5 +1,5 @@
 version: 1
-updated: 2026-05-08T08:06:35.431Z
+updated: 2026-06-22T16:00:20.194Z
 skills:
   gmail:
     name: gmail
@@ -195,7 +195,7 @@ skills:
     published: 2026-02-24T14:20:38.376Z
   freshbooks:
     name: freshbooks
-    version: 1.1.0
+    version: 1.2.0
     description: Manage FreshBooks invoices, clients, expenses, payments, projects, and time tracking
     author: cnrai
     repository: cnrai/openpave-freshbooks
@@ -211,7 +211,7 @@ skills:
       - time-tracking
       - projects
       - billing
-    published: 2026-02-22T14:40:07.616Z
+    published: 2026-06-22T16:00:15.288Z
   discord:
     name: discord
     version: 1.0.0
