@@ -1,5 +1,5 @@
 version: 1
-updated: 2026-05-08T08:06:35.431Z
+updated: 2026-06-22T05:39:46.583Z
 skills:
   gmail:
     name: gmail
@@ -394,3 +394,20 @@ skills:
       - branded
       - dsl
     published: 2026-04-29T10:00:00.000Z
+  cloudflare:
+    name: cloudflare
+    version: 1.1.0
+    description: Deploy and manage Cloudflare Workers, Pages, and AI Workers
+    author: cnrai
+    repository: cnrai/openpave-cloudflare
+    category: development
+    icon: ☁️
+    keywords:
+      - cloudflare
+      - workers
+      - pages
+      - deployment
+      - serverless
+      - ai
+      - edge
+    published: 2026-06-22T05:39:41.886Z
