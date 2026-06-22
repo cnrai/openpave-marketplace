@@ -1,5 +1,5 @@
 version: 1
-updated: 2026-05-08T08:06:35.431Z
+updated: 2026-06-22T16:01:24.343Z
 skills:
   gmail:
     name: gmail
@@ -126,7 +126,7 @@ skills:
     published: 2026-04-24T08:24:36.674Z
   mailchimp:
     name: mailchimp
-    version: 1.0.0
+    version: 1.1.0
     description: Access Mailchimp Marketing API for email campaigns, lists, and subscribers
     author: cnrai
     repository: cnrai/openpave-mailchimp
@@ -139,7 +139,7 @@ skills:
       - campaigns
       - newsletters
       - subscribers
-    published: 2026-02-21T19:57:59.950Z
+    published: 2026-06-22T16:01:20.062Z
   bamboohr:
     name: bamboohr
     version: 1.0.4
