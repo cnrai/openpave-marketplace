@@ -1,5 +1,5 @@
 version: 1
-updated: 2026-05-08T08:06:35.431Z
+updated: 2026-06-22T16:00:06.552Z
 skills:
   gmail:
     name: gmail
@@ -29,20 +29,16 @@ skills:
     published: 2026-05-08T16:30:00.000Z
   exa:
     name: exa
-    version: 1.0.0
-    description: AI-powered web search using Exa.ai neural search
+    version: 1.1.0
+    description: >-
+      AI-powered web search using Exa.ai neural search. Search people, companies, news, research papers, GitHub repos,
+      tweets, and more.
     author: cnrai
     repository: cnrai/openpave-exa
     category: search
     icon: 🔍
-    keywords:
-      - search
-      - web
-      - ai
-      - neural
-      - research
-      - news
-    published: 2026-02-21T00:00:00.000Z
+    keywords: []
+    published: 2026-06-22T16:00:01.740Z
   gcal:
     name: gcal
     version: 1.2.0
