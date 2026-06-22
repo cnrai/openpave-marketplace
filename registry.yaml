@@ -1,5 +1,5 @@
 version: 1
-updated: 2026-05-08T08:06:35.431Z
+updated: 2026-06-22T05:35:03.784Z
 skills:
   gmail:
     name: gmail
@@ -96,7 +96,7 @@ skills:
     published: 2026-02-21T18:09:28.578Z
   whatsapp:
     name: whatsapp
-    version: 1.0.1
+    version: 1.1.0
     description: Send and receive WhatsApp messages via wwebjs-api server
     author: cnrai
     repository: cnrai/openpave-whatsapp
@@ -108,7 +108,7 @@ skills:
       - chat
       - communication
       - wwebjs
-    published: 2026-04-01T04:57:05.957Z
+    published: 2026-06-22T05:34:59.344Z
   wrike:
     name: wrike
     version: 1.0.3
