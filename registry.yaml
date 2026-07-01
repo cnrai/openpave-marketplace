@@ -1,5 +1,5 @@
 version: 1
-updated: 2026-07-01T14:40:28.660Z
+updated: 2026-07-01T16:14:49.009Z
 skills:
   gmail:
     name: gmail
@@ -429,11 +429,14 @@ skills:
     published: 2026-06-22T05:45:00.000Z
   browser-use:
     name: browser-use
-    version: 1.0.0
+    version: 1.1.0
     description: >
       Control a web browser through Puppeteer (precise selector-based control) + LocateAnything-3B (visual grounding
       fallback). Navigate pages, fill forms, click elements, type text, extract DOM, take screenshots, and execute
       JavaScript — all from PAVE agent commands.
+
+      OCR is ON by default on all action commands — each response includes the extracted page text. Use --no-ocr to
+      disable for faster responses.
     author: cnrai
     repository: cnrai/openpave-browser
     category: productivity
@@ -447,4 +450,4 @@ skills:
       - web
       - scraping
       - rpa
-    published: 2026-07-01T14:40:26.233Z
+    published: 2026-07-01T16:14:46.197Z
