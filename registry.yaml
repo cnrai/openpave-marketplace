@@ -1,5 +1,5 @@
 version: 1
-updated: 2026-05-08T08:06:35.431Z
+updated: 2026-07-01T14:40:28.660Z
 skills:
   gmail:
     name: gmail
@@ -427,3 +427,24 @@ skills:
       - cobalt
       - pave
     published: 2026-06-22T05:45:00.000Z
+  browser-use:
+    name: browser-use
+    version: 1.0.0
+    description: >
+      Control a web browser through Puppeteer (precise selector-based control) + LocateAnything-3B (visual grounding
+      fallback). Navigate pages, fill forms, click elements, type text, extract DOM, take screenshots, and execute
+      JavaScript — all from PAVE agent commands.
+    author: cnrai
+    repository: cnrai/openpave-browser
+    category: productivity
+    icon: 🌐
+    keywords:
+      - browser
+      - automation
+      - puppeteer
+      - locateanything
+      - vision
+      - web
+      - scraping
+      - rpa
+    published: 2026-07-01T14:40:26.233Z
