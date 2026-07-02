@@ -1,5 +1,5 @@
 version: 1
-updated: 2026-07-02T03:09:29.382Z
+updated: 2026-07-02T05:59:35.957Z
 skills:
   gmail:
     name: gmail
@@ -429,7 +429,7 @@ skills:
     published: 2026-06-22T05:45:00.000Z
   browser-use:
     name: browser-use
-    version: 1.2.0
+    version: 1.2.1
     description: >
       Control a web browser through Puppeteer (precise selector-based control) + LocateAnything-3B (visual grounding
       fallback). Bundled Chromium — no Chrome installation required. Navigate pages, fill forms, click elements, type
@@ -450,4 +450,4 @@ skills:
       - web
       - scraping
       - rpa
-    published: 2026-07-02T03:09:26.634Z
+    published: 2026-07-02T05:59:32.125Z
