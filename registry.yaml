@@ -1,5 +1,5 @@
 version: 1
-updated: 2026-07-02T03:09:29.382Z
+updated: 2026-07-02T05:55:44.870Z
 skills:
   gmail:
     name: gmail
@@ -26,7 +26,7 @@ skills:
     category: productivity
     icon: null
     keywords: []
-    published: 2026-05-08T16:30:00.000Z
+    published: 2026-07-02T05:55:41.675Z
   exa:
     name: exa
     version: 1.1.0
