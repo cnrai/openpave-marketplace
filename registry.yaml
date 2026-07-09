@@ -1,5 +1,5 @@
 version: 1
-updated: 2026-07-04T17:41:10.693Z
+updated: 2026-07-09T02:58:58.916Z
 skills:
   gmail:
     name: gmail
@@ -451,3 +451,24 @@ skills:
       - scraping
       - rpa
     published: 2026-07-04T17:41:07.452Z
+  pavesuperpower:
+    name: pavesuperpower
+    version: 1.0.0
+    description: >-
+      Workflow skill library for PAVE — TDD, systematic debugging, code review, planning, and proven collaboration
+      patterns. Each command loads a workflow's instructions into context. Invoke the command whose description matches
+      the task at hand.
+    author: PAVE Studio
+    repository: cnrai/pavesuperpower
+    category: development
+    icon: ⚡
+    keywords:
+      - tdd
+      - debugging
+      - code-review
+      - planning
+      - workflow
+      - superpowers
+      - brainstorming
+      - testing
+    published: 2026-07-09T02:58:55.531Z
