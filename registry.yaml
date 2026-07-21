@@ -1,5 +1,5 @@
 version: 1
-updated: 2026-07-16T05:32:44.906Z
+updated: 2026-07-21T04:52:58.555Z
 skills:
   gmail:
     name: gmail
@@ -376,24 +376,18 @@ skills:
     published: 2026-04-25T02:43:12.162Z
   deck:
     name: deck
-    version: 1.0.2
+    version: 3.0.0
     description: >-
-      Generate beautiful C&R-branded HTML presentation decks from an explicit slide DSL. ~15 slide types across C&R
-      light and PAVE dark themes.
+      Generate PAVE Design System HTML presentation decks from a JSON content definition. Default theme is PAVE (cobalt
+      dark + lime-green accent). Also supports C&R light theme. 9+ slide types including cover, divider, content,
+      grid-cards, step-cards, highlight, vs, flow, thank-you. Cards: clip, num, glass, bracket, stat, icon, tier, table.
+      Full-bleed bg images, accent-bg slides, fixed brand bar, auto-hide navigation.
     author: cnrai
     repository: cnrai/openpave-deck
-    category: design
-    icon: 🎞️
-    keywords:
-      - presentation
-      - slides
-      - deck
-      - html
-      - cnr
-      - pave
-      - branded
-      - dsl
-    published: 2026-04-29T10:00:00.000Z
+    category: productivity
+    icon: null
+    keywords: []
+    published: 2026-07-21T04:52:55.876Z
   cloudflare:
     name: cloudflare
     version: 1.1.0
