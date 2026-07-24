@@ -1,5 +1,5 @@
 version: 1
-updated: 2026-07-16T05:32:44.906Z
+updated: 2026-07-24T02:54:54.428Z
 skills:
   gmail:
     name: gmail
@@ -474,3 +474,16 @@ skills:
       - agent
       - superpowers
     published: 2026-07-10T03:02:58.000Z
+  taste-design:
+    name: taste-design
+    version: 1.0.0
+    description: >-
+      Leon Kowalski's design taste skills: brand kit generation, frontend design taste, image-to-code, high-end visual
+      design, industrial brutalist UI, minimalist UI, redesign existing projects, and more. 13 commands for premium
+      frontend design.
+    author: Leonxlnx
+    repository: Leonxlnx/taste-skill
+    category: productivity
+    icon: null
+    keywords: []
+    published: 2026-07-24T02:54:51.711Z
