@@ -1,5 +1,5 @@
 version: 1
-updated: 2026-07-16T05:32:44.906Z
+updated: 2026-07-24T02:42:50.749Z
 skills:
   gmail:
     name: gmail
@@ -474,3 +474,15 @@ skills:
       - agent
       - superpowers
     published: 2026-07-10T03:02:58.000Z
+  emil-design:
+    name: emil-design
+    version: 1.0.0
+    description: >-
+      Emil Kowalski's design engineering skills: animation vocabulary, Apple design principles, find/improve/review
+      animations, pick UI libraries. 7 commands for motion design and UI polish.
+    author: emilkowalski
+    repository: emilkowalski/skills
+    category: productivity
+    icon: null
+    keywords: []
+    published: 2026-07-24T02:42:47.790Z
