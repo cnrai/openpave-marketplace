@@ -1,5 +1,5 @@
 version: 1
-updated: 2026-07-31T00:00:00.000Z
+updated: 2026-08-11T16:15:00.000Z
 skills:
   gmail:
     name: gmail
@@ -474,3 +474,25 @@ skills:
       - agent
       - superpowers
     published: 2026-07-10T03:02:58.000Z
+  officecli:
+    name: officecli
+    version: 1.0.0
+    description: >-
+      Zero-setup Word / Excel / PowerPoint automation via the OfficeCLI binary.
+      Auto-provisions on first use for Windows/macOS/Linux — no PATH edits, no
+      installs. Windows-native execution works on clean Windows (no git/WSL).
+    author: cnrai
+    repository: cnrai/openpave-officecli
+    category: productivity
+    icon: 📄
+    keywords:
+      - office
+      - docx
+      - xlsx
+      - pptx
+      - word
+      - excel
+      - powerpoint
+      - documents
+      - automation
+    published: 2026-08-11T16:15:00.000Z
