@@ -1,5 +1,5 @@
 version: 1
-updated: 2026-09-24T00:50:08.394Z
+updated: 2026-09-24T04:06:40.696Z
 skills:
   gmail:
     name: gmail
@@ -495,7 +495,7 @@ skills:
     published: 2026-09-16T03:55:52.731Z
   jev:
     name: jev
-    version: 0.1.1
+    version: 0.2.0
     description: >-
       Ask non-autoregressive decision models for typed answers with calibrated probabilities - classify, route, score
       and gate without an LLM round-trip
@@ -504,4 +504,4 @@ skills:
     category: development
     icon: null
     keywords: []
-    published: 2026-09-24T00:50:05.547Z
+    published: 2026-09-24T04:06:36.351Z
