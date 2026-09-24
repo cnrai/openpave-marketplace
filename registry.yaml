@@ -1,5 +1,5 @@
 version: 1
-updated: 2026-09-16T03:55:57.235Z
+updated: 2026-09-24T00:50:08.394Z
 skills:
   gmail:
     name: gmail
@@ -493,3 +493,15 @@ skills:
       - pave
       - openpave
     published: 2026-09-16T03:55:52.731Z
+  jev:
+    name: jev
+    version: 0.1.1
+    description: >-
+      Ask non-autoregressive decision models for typed answers with calibrated probabilities - classify, route, score
+      and gate without an LLM round-trip
+    author: cnrai
+    repository: cnrai/openpave-jev
+    category: development
+    icon: null
+    keywords: []
+    published: 2026-09-24T00:50:05.547Z
