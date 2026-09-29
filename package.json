@@ -1,0 +1,12 @@
+{
+  "name": "openpave-marketplace",
+  "version": "1.0.0",
+  "private": true,
+  "description": "The official PAVE skill marketplace registry (cnrai-curated).",
+  "scripts": {
+    "lint": "node scripts/lint-registry.js"
+  },
+  "devDependencies": {
+    "js-yaml": "^4.1.0"
+  }
+}

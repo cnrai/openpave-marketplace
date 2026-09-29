@@ -143,6 +143,7 @@ Example entry:
 Skills must meet these requirements to be listed:
 
 - [ ] Valid `skill.yaml` with all required fields
+- [ ] (Composite skills, #2638) If your skill needs MCP servers, list them in the registry entry's `requiresMcps` field — an optional array of MCP capability ids from [cnrai/openpave-capabilities](https://github.com/cnrai/openpave-capabilities) (lowercase kebab, e.g. `requiresMcps: [github, slacks]`). Installing the skill auto-installs its required MCPs; the ids are linted by `scripts/lint-registry.js`.
 - [ ] Public GitHub repository
 - [ ] Working installation: `pave install owner/repo`
 - [ ] At least one documented command
