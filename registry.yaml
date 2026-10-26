@@ -1,5 +1,5 @@
 version: 1
-updated: 2026-10-24T07:58:57.307Z
+updated: 2026-10-26T06:20:13.867Z
 skills:
   gmail:
     name: gmail
@@ -507,7 +507,7 @@ skills:
     published: 2026-09-24T04:06:36.351Z
   wrike-mcp:
     name: wrike-mcp
-    version: 1.0.0
+    version: 1.1.0
     description: >-
       Operate Wrike through the remote MCP server (mcp.wrike.com/v2, bridged as mcp_wrike_* tools) - verified doctrines
       and workarounds for tasks, folders, and attachments
@@ -522,4 +522,4 @@ skills:
       - project-management
       - work-management
       - collaboration
-    published: 2026-10-24T07:58:54.899Z
+    published: 2026-10-26T06:20:10.592Z
