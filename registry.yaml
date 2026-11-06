@@ -523,3 +523,21 @@ skills:
       - work-management
       - collaboration
     published: 2026-10-26T06:20:10.592Z
+  dropbox-mcp:
+    name: dropbox-mcp
+    version: 0.2.1
+    description: >-
+      Operate Dropbox through the remote MCP server (mcp.dropbox.com/mcp, bridged as mcp_dropbox_* tools) - verified
+      doctrines and workarounds for install, OAuth, files, Paper, and Sign
+    author: cnrai
+    repository: cnrai/openpave-dropbox-mcp
+    category: productivity
+    icon: 📁
+    keywords:
+      - dropbox
+      - mcp
+      - files
+      - storage
+      - file-sharing
+      - oauth
+    published: 2026-11-06T07:03:01.000Z
